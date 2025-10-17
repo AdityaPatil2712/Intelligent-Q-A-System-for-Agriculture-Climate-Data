@@ -1,4 +1,4 @@
-# Project Samarth — Intelligent Q&A System for Agriculture & Climate Data
+# Intelligent Q&A System for Agriculture & Climate Data
 
 > **Empowering Data-Driven Governance for India's Agriculture Sector**  
 > A full-stack AI system that answers complex natural-language questions about India’s agriculture and climate patterns using **live data from [data.gov.in](https://data.gov.in)**.
@@ -20,28 +20,28 @@ Built using a modern AI + data engineering stack — **FastAPI**, **Streamlit**,
 
 ## Features
 
-✅ **Natural Language Q&A Interface** — Ask questions like a human, get factual data-backed answers  
-✅ **Live Government Data** — Sources data directly from the official [data.gov.in APIs](https://data.gov.in/)  
-✅ **Dual-Dataset Integration** — Combines both **Agriculture** and **Climate** datasets intelligently  
-✅ **AI-Powered Analysis** — Uses GPT to interpret and summarize multi-dimensional government data  
-✅ **Interactive Streamlit Dashboard** — Elegant front-end for seamless interaction  
-✅ **FastAPI Backend** — High-performance backend connecting AI and live APIs  
-✅ **Error Handling & Fallback** — Gracefully manages unavailable datasets or key issues  
+ **Natural Language Q&A Interface** — Ask questions like a human, get factual data-backed answers  
+ **Live Government Data** — Sources data directly from the official [data.gov.in APIs](https://data.gov.in/)  
+ **Dual-Dataset Integration** — Combines both **Agriculture** and **Climate** datasets intelligently  
+ **AI-Powered Analysis** — Uses GPT to interpret and summarize multi-dimensional government data  
+ **Interactive Streamlit Dashboard** — Elegant front-end for seamless interaction  
+ **FastAPI Backend** — High-performance backend connecting AI and live APIs  
+ **Error Handling & Fallback** — Gracefully manages unavailable datasets or key issues  
 
 ---
 
 ---
 
-## 🔑 Datasets Used
+##  Datasets Used
 
 | Domain | Dataset Name | Source | Resource ID |
 |---------|---------------|--------|--------------|
-| 🌾 Agriculture | District-wise Crop Production (2022–23) | [data.gov.in](https://data.gov.in) | `9ef84268-d588-465a-a308-a864a43d0070` |
-| ☁️ Climate | Monthly Rainfall Data of India | [data.gov.in](https://data.gov.in) | `4a69f6f6-6f81-4c07-a063-9f69e26ac5a1` |
+|  Agriculture | District-wise Crop Production (2022–23) | [data.gov.in](https://data.gov.in) | `9ef84268-d588-465a-a308-a864a43d0070` |
+|  Climate | Monthly Rainfall Data of India | [data.gov.in](https://data.gov.in) | `4a69f6f6-6f81-4c07-a063-9f69e26ac5a1` |
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 | Layer | Technologies Used |
 |--------|--------------------|
@@ -55,26 +55,25 @@ Built using a modern AI + data engineering stack — **FastAPI**, **Streamlit**,
 
 ---
 
-## 🧩 Folder Structure
+##  Folder Structure
 
 project-samarth/
-│
-├── backend/
-│ ├── app.py # FastAPI server
-│ ├── qa_engine.py # AI reasoning engine
-│ ├── data_fetcher.py # Fetches live datasets
-│ ├── .env # API keys (not public)
-│
-├── frontend/
-│ └── streamlit_app.py # Streamlit web interface
-│
-├── README.md
-└── requirements.txt
+
+ 1)backend:
+    i)app.py 
+    ii)qa_engine.py 
+    iii)data_fetcher.py 
+    iv).env 
+
+ 2)frontend:
+    i)streamlit_app.py
+ 3)README.md
+ 4)requirements.txt
 
 
 ---
 
-## 🔐 Setup Instructions
+##  Setup Instructions
 
 ### Clone the repository
 ```bash
@@ -109,14 +108,16 @@ streamlit run streamlit_app.py
 
 4)Build predictive insights using ML models
 
+
 #Author
 
 Aditya Pravin Patil
 Final Year B.Tech (Electronics & Computer Engineering)
 MIT ADT University, Pune
-
 Maharashtra, India
+
 LinkedIn: https://github.com/AdityaPatil2712
 GitHub: https://www.linkedin.com/in/aditya-patil-6596b02b7/
 Email: adityapatil27122003@gmail.com
+
 
