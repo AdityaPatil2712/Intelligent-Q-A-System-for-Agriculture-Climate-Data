@@ -60,14 +60,21 @@ Built using a modern AI + data engineering stack — **FastAPI**, **Streamlit**,
 project-samarth/
 
  1)backend:
+ 
     i)app.py 
+    
     ii)qa_engine.py 
+    
     iii)data_fetcher.py 
+    
     iv).env 
 
  2)frontend:
+ 
     i)streamlit_app.py
+    
  3)README.md
+ 
  4)requirements.txt
 
 
@@ -119,5 +126,6 @@ Maharashtra, India
 LinkedIn: https://github.com/AdityaPatil2712
 GitHub: https://www.linkedin.com/in/aditya-patil-6596b02b7/
 Email: adityapatil27122003@gmail.com
+
 
 
